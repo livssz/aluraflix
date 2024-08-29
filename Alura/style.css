@@ -1,0 +1,96 @@
+body {
+  color: white;
+  background: rgb(69, 48, 33);
+  background: linear-gradient(50deg, rgba(69, 48, 33, 1) 40%, rgba(53, 74, 50, 1) 100%);
+  font-family: "Chakra Petch", sans-serif;
+}
+
+header {
+  border-bottom: solid 2px whitesmoke;
+  padding: 20px;
+  font-size: 32px;
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+.paragraphs {
+  font-size: 20px;
+}
+
+.text {
+  margin-right: 5%;
+  width: 50%;
+
+  @media (max-width:480px) {
+    margin-bottom: 5%;
+    width: 100%;
+  }
+}
+
+.video {
+  margin: 5%;
+
+  @media (max-width:480px) {
+    margin: 0;
+  }
+}
+
+iframe {
+  max-width: 100%;
+}
+
+main {
+  padding-bottom: 80px;
+  padding-top: 80px;
+  margin-left: 5%;
+  margin-right: 5%;
+  justify-content: center;
+  display: flex;
+
+  @media (max-width:480px) {
+    flex-wrap: wrap;
+  }
+}
+
+.videos-section {
+  padding: 10px;
+}
+
+.more-content {
+  justify-content: left;
+}
+
+.videos {
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+  width: 100%;
+}
+
+.videos a {
+  @media (max-width:480px) {
+    overflow: hidden;
+    min-width: 80%;
+  }
+}
+
+img {
+  height: 200px;
+
+  @media (max-width:480px) {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.videos img {
+  opacity: 0.5;
+}
+
+.videos img:hover {
+  opacity: 1.0;
+}
